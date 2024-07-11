@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+/* Style the element with the id "myHeader"*/
+#myHeader {
+  background-color: white;
+  color: Black;
+  padding: 40px;
+  text-align: center;
+    } 
+/* Style all elements with the class name "Experience" */
+.Experience {
+  background-color: Purple;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<h1 id="myHeader">Amarachukwu Portfolio</h1>
+<h3 class="Experience">Design</h3>
+<h3 class="Experience">Writing</h3>
+<h3 class="Experience">Editing</h3>
+<link href="styles.css" rel="stylesheet"/>
+</style>
+</body>
+</head>
+<p>See more <a target="_blank"
+     href="https://www.linkedin.com/in/amarachukwu-ozorgwu-636025232/">LinkdIn Profile</a></p>
+     <button type="Hire Me">Hire Me</button>
