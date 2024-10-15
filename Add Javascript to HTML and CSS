@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style10 copy.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">  
+    <title>Delish Restaurant</title>
+</head>
+<body>
+
+    <Section id="Home">
+        <nav>
+            <div class="logo">
+                <img class="img-fluid"src="img/Delish (1).png" alt="Delish" width="150" height="150"> 
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="Home">Home</a></li>
+                    <li><a href="About">About</a></li>
+                    <li><a href="Menu">Menu</a></li>
+                    <li><a href="Meal Plan">Meal Plan</a></li>
+                    <li><a href="Customise">Costomise</a></li>
+                    <li><a href="Allergies">Allergies</a>
+                        <div class="dropdown-content">
+                             <a href="ÄllergyBlog">Allergy Blog</a>
+                             <a href="SpeakToADietician" style="text-wrap: nowrap;">Speak To A Dietician</a>
+                        </div>
+                    </li>
+                    <li><a herf="Order">Order</a></li>
+                    <li><a herf="Review">Review</a></li>
+                </ul>
+            </div>
+
+            <div class="icon">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+
+        </nav>
+        <div class="main">
+
+            <div class="men_text">
+                <div class=divflex>
+
+                    <div class="col food">
+                        <h1>Get Fresh Cooked African<span>Food</span><br>The Easy Way</h1>  
+                        <div>
+                            <p>
+                              Craving a taste of home? Delish offers a wide
+                              variety of traditional African meal plan,Allergy advice,alternate African Ingredients
+                              based on your location and freshly prepared meals delivered to your door step.
+                              Place your order now on Delish and enjoy delicious, healthy
+                              budget-friendly African cuisine without leaving your home.  
+                          </p>
+                          </div>
+          
+                          <div class="main_btn">
+                              <a herf="a">Order Now</a>
+                              <i class="fas fa-angle-right"></i>
+                          </div> 
+                        
+                    </div>
+                    <div class="col">
+                        <img src="img/The image.png" alt=""> 
+                     </div> 
+                </div>
+                  
+
+                 
+
+            </div>
+        </div>
+    </Section>
+
+    
+
+        <!-- About -->
+
+        <div class="about" id="About">
+         <div class="about_main">
+
+            <div class="image">
+                <img src="img\IMG_0807.jpeg">
+            </div>
+            <div class="about_text">
+                <h1><span>About</span>US</h1>
+                <h4>Why Choose Us?</h4>
+                <p>
+                  African flavours have never been  served  this fresh.
+                  Made from authenthic ingredients, 
+                  sourced directly from the heart of the continent.
+                  We bring You a special culinary journey that brings the rich traditions
+                  and tastes of African cusine right to your table. Enjoy Our free substitute ingredient guide based on your country.
+                  Get customied meal plan. Read our blog on allergies or speak to a certified dietician for a stipend. 
+                </p>
+            </div>
+
+         </div>   
+        </div>
+        <script>
+            document.getElementById('drop down content').addEventListener('change' , function(){
+                alert('You Selected:'+ this.value);
+            });
+        </script>
+</body>
+</html>
